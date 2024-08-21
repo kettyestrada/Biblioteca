@@ -1,5 +1,5 @@
 public class Libro {
-    private String nombreDeLibro;
-    private String autor;
-    private String categoria;
+    public String nombreDeLibro;
+    public String autor;
+    public String categoria;
 }
