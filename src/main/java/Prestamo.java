@@ -1,10 +1,10 @@
 public class Prestamo {
     private String fechaDePrestamo;
-    public String fechaDeDevolucion;
-    public Persona persona;
-    public Libro libro;
+    private String fechaDeDevolucion;
+    private Persona persona;
+    private Libro libro;
 
-
+//constructor
     public Prestamo ( Persona persona, Libro libro, String fechaDePrestamo, String fechaDeDevolucion){
         this.persona = persona;
         this.libro = libro;
@@ -14,5 +14,15 @@ public class Prestamo {
 
     public String getFechaDePrestamo() {
         return fechaDePrestamo;
+    }
+
+    @Override
+    public String toString() {
+        return "Prestamo{" +
+                "fechaDePrestamo='" + fechaDePrestamo + '\'' +
+                ", fechaDeDevolucion='" + fechaDeDevolucion + '\'' +
+                ", persona=" + persona +
+                ", libro=" + libro +
+                '}';
     }
 }

@@ -4,6 +4,15 @@ public class Persona {
     private int telefono;
 
 
+//constructor
+    public Persona(String nombre, String direccion, int telefono) {
+        this.nombre = nombre;
+        this.direccion = direccion;
+        this.telefono = telefono;
+    }
+
+    //Métodos
+
     public String getNombre() {
         return this.nombre;
     }
@@ -27,5 +36,14 @@ public class Persona {
 
     public void setDireccion(String direccionParametro) {
         this.direccion = direccionParametro;
+    }
+
+    @Override
+    public String toString() {
+        return "Persona{" +
+                "nombre='" + nombre + '\'' +
+                ", direccion='" + direccion + '\'' +
+                ", telefono=" + telefono +
+                '}';
     }
 }
