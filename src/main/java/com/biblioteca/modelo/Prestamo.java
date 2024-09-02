@@ -1,3 +1,5 @@
+package com.biblioteca.modelo;
+
 public class Prestamo {
     private String fechaDePrestamo;
     private String fechaDeDevolucion;
@@ -18,7 +20,7 @@ public class Prestamo {
 
     @Override
     public String toString() {
-        return "Prestamo{" +
+        return "com.biblioteca.modelo.Prestamo{" +
                 "fechaDePrestamo='" + fechaDePrestamo + '\'' +
                 ", fechaDeDevolucion='" + fechaDeDevolucion + '\'' +
                 ", persona=" + persona +

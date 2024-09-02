@@ -1,3 +1,5 @@
+package com.biblioteca.modelo;
+
 public class Persona {
     private String nombre;
     private String direccion;
@@ -40,7 +42,7 @@ public class Persona {
 
     @Override
     public String toString() {
-        return "Persona{" +
+        return "com.biblioteca.modelo.Persona{" +
                 "nombre='" + nombre + '\'' +
                 ", direccion='" + direccion + '\'' +
                 ", telefono=" + telefono +

@@ -7,7 +7,7 @@
     <groupId>com.example</groupId>
     <artifactId>Biblioteca</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>Biblioteca</name>
+    <name>BibliotecaMain</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
